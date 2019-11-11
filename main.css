@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+/*
+
+rgb(252, 92, 101) || rgb(235, 59, 90)
+rgb(253, 150, 68) || rgb(250, 130, 49)
+rgb(254, 211, 48) || rgb(247, 183, 49)
+rgb(38, 222, 129) || rgb(32, 191, 107)
+rgb(43, 203, 186) || rgb(15, 185, 177)
+rgb(69, 170, 242) || rgb(45, 152, 218)
+rgb(75, 123, 236) || rgb(56, 103, 214)
+rgb(165, 94, 234) || rgb(136, 84, 208)
+rgb(209, 216, 224) || rgb(165, 177, 194)
+rgb(119, 140, 163) || rgb(75, 101, 132)
+
+*/
+
+body {
+    margin: 0;
+    line-height: 1.4;
+    background-color: #f3f3f3;
+    font-family: "Poppins", sans-serif;
+    color: #797979 !important;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+.pembelian-form {
+    background-color: #ffffff;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 145px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.155);
+    transition: all 1s ease;
+}
+
+.pembelian-form:hover {
+    transition: all 1s ease;
+}
+
+.logo-simcard {
+    background-color: #8854d0;
+    position: relative;
+    margin-top: -35px;
+    margin-left: 10px;
+    color: #ffffff;
+    width: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title-pembelian {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center !important;
+    color: rgb(136, 84, 208);
+}
+
+.title-pembelian .img-icon {
+    width: 45px;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+
+.form-ku {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgb(136, 84, 208, 0.1);
+    border: 1px solid #ced4da;
+    border-radius: 1rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: all 1s ease;
+}
+
+.form-ku:focus {
+    color: #495057;
+    background-color: rgb(165, 94, 234 0.2) !important;
+    border-color: rgb(136, 84, 208);
+    outline: 0;
+    transition: all 1s ease;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.form-group label {
+    position: relative;
+    top: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-text span {
+    color: rgb(136, 84, 208);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.copyright {
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.copyright i {
+    color: rgb(136, 84, 208);
+}
+
+/* =============
+   Buttons
+============= */
+.button {
+    border-radius: 2px;
+    font-size: 13px;
+    padding: 7px 14px;
+    outline: none !important;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-primarys {
+    background-color: #8854d0 !important;
+    border: 1px solid #8854d0 !important;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.btn-primarys:hover {
+    background-color: #a55eea !important;
+    border-color: #a55eea !important;
+    transition: all 1s ease;
+    color: #fff;
+}
